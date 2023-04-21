@@ -21,6 +21,7 @@ class Account:
 
         else:
             self.__account_balance -= amount
+            return True
 
     def get_balance(self):
         return self.__account_balance
